@@ -1,0 +1,32 @@
+.mood_thumbnail {
+  width:46px;
+  padding:10px 0 10px 10px;
+  box-sizing:border-box;
+  float:left;
+}
+
+.mood_text {
+  padding:10px 10px 5px 10px;
+  width:calc(100% - 46px);
+  margin-left:46px;
+}
+  .mood_text span {
+    color:#999;
+  }
+
+  .mood_text p {
+    margin:0;
+  }
+
+.mood_thumbnail .thumbnail {
+  background-color:#eee;
+  border-radius:50%;
+  width:34px;
+  height:34px;
+}
+  .mood_thumbnail .thumbnail img {
+    width:22px;
+    height:22px;
+    padding:6px;
+    margin:0;
+  }
