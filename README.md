@@ -21,16 +21,14 @@ Install Python dependencies.
 pip install -r requirements.txt
 ```
 
-# Directory Structure
+# Development
 
-## `statics/`
+## Directory Structure
 
-This folder contains all four prototype statics. These statics are not ready for public consumption; they still contain PIIs.
+### `prototypes/`
 
-## `features/`
+This folder contains all four prototype statics.
 
-This folder contains a random collection of features. Some may simply be imported from Python libraries.
+### `classification/`
 
-## `naiivebayes/`
-
-This Naiive Bayes implements a bag-of-words model to predict the predominant reaction for a post, excluding "Like"s.
+This folder contains all classification training models and scripts.
