@@ -100,7 +100,7 @@ gulp.task('sass', function() {
     .pipe(sass())
     .pipe(minifyCss({compatibility: 'ie8', keepBreaks: false}))
     .pipe(rename({suffix: '.min' }))
-    .pipe(gulp.dest(PUBLISHED_DIR + "css"))
+    .pipe(gulp.dest(PUBLISHED_DIR + "emoticonn/css"))
     .pipe(browserSync.stream());
 });
 
