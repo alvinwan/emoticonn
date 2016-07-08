@@ -12,11 +12,13 @@ deploy:
 	git checkout gh-pages && \
 	  rm -rf images && \
 		rm -rf fonts && \
-	  cp -r published/ . && \
-		rm images && \
-		rm fonts && \
-		cp -r published/fonts . && \
-		cp -r published/images .
+	  cp -r published/*.html . && \
+		cp -r published/js . && \
+		cp -r published/css . && \
+		mkdir fonts && \
+		mkdir images && \
+		cp -r published/fonts/* . && \
+		cp -r published/images/* .
 	git pull
 	git add .
 	git commit -m "$(m)"
