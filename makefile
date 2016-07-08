@@ -14,7 +14,7 @@ deploy:
 		rm -rf fonts && \
 	  cp -r published/*.html . && \
 		cp -r published/js . && \
-		cp -r published/emoticonn . && \
+		cp -r published/emoticonn/css . && \
 		mkdir fonts && \
 		mkdir images && \
 		cp -r published/fonts/* fonts && \
