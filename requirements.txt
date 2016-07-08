@@ -1,3 +1,0 @@
-textstat==0.2
-nltk==3.2.1
-numpy==1.11.1
