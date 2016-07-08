@@ -15,7 +15,7 @@ deploy:
 	  cp -r published/*.html . && \
 		cp -r published/js . && \
 		cp -r published/emoticonn/css . && \
-		cp -r prototypes . && \
+		cp -r published/prototypes . && \
 		mkdir fonts && \
 		mkdir images && \
 		cp -r published/fonts/* fonts && \
