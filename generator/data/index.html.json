@@ -16,5 +16,6 @@
     "cool": "https://static.xx.fbcdn.net/images/emoji.php/v5/zdc/2/32/1f60e.png",
     ":(": "https://static.xx.fbcdn.net/images/emoji.php/v5/z7b/2/32/1f61e.png",
     "frown": "https://static.xx.fbcdn.net/images/emoji.php/v5/z7b/2/32/1f61e.png"
-  }
+  },
+  "site_path": "/emoticonn"
 }

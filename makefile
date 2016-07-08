@@ -10,10 +10,9 @@ deploy:
 	git commit -m "$(m)"
 	git push
 	git checkout gh-pages && \
-	  cp -r published/ . && \
-		cp -r published/images . && \
-		cp -r published/fonts .
+	  cp -r published/ .
 	git pull
 	git add .
 	git commit -m "$(m)"
 	git push
+	git checkout master
