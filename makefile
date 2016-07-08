@@ -17,8 +17,8 @@ deploy:
 		cp -r published/css . && \
 		mkdir fonts && \
 		mkdir images && \
-		cp -r published/fonts/* . && \
-		cp -r published/images/* .
+		cp -r published/fonts/* fonts && \
+		cp -r published/images/* images
 	git pull
 	git add .
 	git commit -m "$(m)"
