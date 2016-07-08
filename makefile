@@ -25,3 +25,4 @@ deploy:
 	git commit -m "$(m)"
 	git push
 	git checkout master
+	echo "FINISHED"
